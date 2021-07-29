@@ -21,7 +21,6 @@
 }
 .barraPesquisa{
     display: flex;
-
 }
 .busca{
     text-align: center;
@@ -38,4 +37,9 @@
 .footer {
     display: flex;
     background-color: #005A9C;
+    height: 90px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
