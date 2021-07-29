@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.headerDiv{
+    display: flex;
+    background-color: #005A9C;
+    height: 30px;
+}
+.logo{
+    height: 60px;
+    width: 80px;
+    margin-left: 100px;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#ecf0f1 ;
+    height: 70px;
+}
+.barraPesquisa{
+    display: flex;
+
+}
+.busca{
+    text-align: center;
+    height: 40px;
+    width: 410px;
+    border-radius: 5px;
+}
+.userEcarrinho{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+}
+.footer {
+    display: flex;
+    background-color: #005A9C;
+}
