@@ -1,6 +1,79 @@
 h1{
     font-family: "Roboto";
+    text-align: center;
 }
 p{
     font-family: "Lato";
 }
+.produtosPrincipais{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.outrosProdutos{
+    display: flex;
+}
+.textoProdutos{
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+    font-family: 'lato';
+}
+.banner1{
+    background-color: #005A9C;
+    height: 30px;
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.textoBanner1{
+    display: flex;
+    align-items: center;
+    color: #FF6300;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.outrosProdutos{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around;
+}
+.precoProdutos{
+    color: #FF6300;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.inspire-se{
+    font-family: 'Open Sans';
+    text-align: center;
+    font-size: 25px;
+    color: #005A9C;
+}
+.quadrosInspire-se{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+
+
+
+/**.footer {
+    display: flex;
+    background-color: #005A9C;
+    height: 90px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+**/
