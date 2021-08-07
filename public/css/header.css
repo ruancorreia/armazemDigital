@@ -71,4 +71,5 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+    font-family: 'Open Sans';
 }

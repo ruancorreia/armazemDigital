@@ -4,23 +4,27 @@ const path = require("path");
 
 
 routes.get('/', (req, res)=>{
-    res.sendFile(path.resolve("views", "index.html"));
+    res.render('index');
 });
 routes.get('/home', (req, res)=>{
-    res.sendFile(path.resolve("views", "index.html"));
+    res.redirect('/');
 });
 routes.get('/manutencao', (req, res)=>{
-    res.sendFile(path.resolve("views", "manutencao.html"));
+    res.render('manutencao');
 });
 routes.get('/paineldousuario', (req, res)=>{
-    res.sendFile(path.resolve("views", "paineldousuario.html"));
+    res.render('paineldousuario');
 });
 routes.get('/carrinho', (req, res)=>{
-    res.sendFile(path.resolve("views", "carrinho.html"));
+    res.render('carrinho');
 });
 
 routes.get('/produtos', (req, res)=>{
-    res.sendFile(path.resolve("views", "produtos.html"));
+    res.render('produtos');
+});
+
+routes.get('/categorias', (req, res)=>{
+    res.render('categorias');
 });
 
 module.exports = routes;
