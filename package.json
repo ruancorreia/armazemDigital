@@ -10,14 +10,13 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ruancorreia/armazemDigital.git"
   },
-  "author": "ruancorreia",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ruancorreia/armazemDigital/issues"
